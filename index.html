@@ -1,98 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳.
-             미리 생각 해놓은 것을 적어두는 곳.-->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content="안녕하세요! 최다영입니다:)" />
-        <meta property="og:description" content="365일 여행하는 삶을 꿈꾸는 뉴스킨 사업가" />
-        <meta property="og:image" content="다영프로필.jpg" />
-        <title>c_da_young 프로필 링크</title>
-        <style>
-            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-            * {
-                font-family: "Pretendard",serif;
-            }
-            body {
-                background-color: #43388b;
-            }
-            .profile {
-                width: 100px;
-                height: 100px;
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="뉴스킨사업가 최다영입니다:)">
+    <meta property="og:description" content="365일 여행하는 삶을 꿈꿉니다.">
+    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EB%A1%9C%EA%B3%A0.png">
+    <title>뉴스킨사업가 최다영</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body {
+            background: linear-gradient(180deg, #FFFCFD 0%, #FFE2E8 100%);
+            height: 100vh;
+          }
+        .profile {
+            width: 100px;
+            height: 100px;
 
-                background-color: black;
-                border-radius: 100%;
+            background-color: black;
+            border-radius: 100%;
 
-                border: 2px solid white;
+            border: 2px solid rgb(250, 193, 193);
 
-                background-image: url('다영프로필.jpg');
-                background-position: center;
-                background-size: cover;
-            }
-            .main {
-                color: wheat;
-                font-size: 20px;
-
-                margin-top: 30px;
-                margin-bottom: 10px;
-            }
-            .sub {
-                color: rgb(247, 188, 100);
-                font-size: 14px;
-
-                margin-top: 0px;
-                margin-bottom: 30px;
-            }
-            .dayoung {
-                width: 300px;
-                margin: 30px auto 0px auto;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .dayoung > a {
-                width: 300px;
-                height: 50px;
-
-                background-color: white;
-                border-radius: 8px;
-                margin-bottom: 10px;
-
-                font-size: 14px;
-                font-weight: bold;
-                color: #43388b;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                text-decoration: none;
-
-                box-shadow: 3px 3px 5px 0px black;
-            }
-            .dayoung > a:hover{
-                background-color: #d2d2d2;
-                font-size: 16px;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- 우리가 웹페이지에서 볼 수 있는 부분을 세팅하는 곳.
-             구조들을 설정하는 곳.-->
-        <div class="dayoung"> 
-            <div class="profile"></div>
-            <h1 class="main">안녕하세요! 최다영입니다:)</h1>
-            <p class="sub">365일 여행하는 삶을 꿈꾸는 뉴스킨 사업가</p>
-
-            <a target="_blank" href="http://www.instargram.com/c_da_young">인스타그램</a>
-            <a target="_blank" href="http://blog.naver.com/cdyoung7942">블로그</a>
-            <a target="_blank" href="https://m.youtube.com/channel/UCBdy65x_R1zlwlx0xMImkKg">유튜브</a>
-            <a target="_blank" href="https://c-da-young.mynuskin.co.kr/">구매링크</a>
+            background-image: url('다영프로필.jpg');
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .main {
+            color : #f88161;
+            font-size: 20px;
+            size : 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub {
+            color : #fead8a;
+            font-size: 14px;
+            font-weight: 400;
+            size : 14px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bigbutton {
+            width: 320px;
+            height: 59px;
+            border-radius: 8px;
+            background-color: white;
+            margin-bottom: 16px;
+            font-size: 14px;
+            font-weight: bold;
+            color:#fea1a1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0px 4px 16px rgba(232, 52, 78, 0.2);
+        }
+        .buttons > a {
+            width: 152px;
+            height: 59px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: bold;
+            color:#f7d6d6;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0px 4px 16px rgba(232, 52, 78, 0.2);
+            margin: 0px 8px 17px 8px;
+        }
+        .dding {
+            background-color: #FF773C;
+        }
+        .online {
+            background-color: #e8344e;
+        }
+        .hang {
+            background-color: #f50000;
+        }
+        .chang {
+            background-color: #0f16ae;
+        }
+        .buttons {
+            display: flex;
+        }
+        .wrap > a:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">뉴스킨 사업가 최다영입니다:)</h1>
+        <p class="sub">365일 여행하는 삶을 꿈꿉니다.</p>
+        <a class="bigbutton"target="_blank" href="https://c-da-young.mynuskin.co.kr/">구매링크</a>
+        <a class="bigbutton"target="_blank" href="https://open.kakao.com/o/sKSFFUJe/">카카오톡</a>
+        <div class="buttons">
+            <a class="dding" target="_blank" href="http://www.instargram.com/c_da_young">인스타그램</a>
+            <a class="online"target="_blank" href="https://m.youtube.com/channel/UCBdy65x_R1zlwlx0xMImkKg">유튜브</a>
         </div>
-    </body>
+        <div class="buttons">
+            <a class="hang" target="_blank" href="https://www.facebook.com/profile.php?id=100006256230086">페이스북</a>
+            <a class="chang"target="_blank" href="http://blog.naver.com/cdyoung7942">블로그</a>
+        </div>
+    </div>
+</body>
 </html>
